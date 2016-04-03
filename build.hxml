@@ -1,0 +1,14 @@
+-cp src
+
+-swf out/main.swf
+-swf-header 512:512:60:CECECE
+-swf-version 11.8
+
+-main Game
+
+-dce full
+
+-lib castle
+-lib heaps
+
+-debug
